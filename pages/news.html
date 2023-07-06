@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="news, news today, newstoday, weather, world news, blog, ">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/news.css">
+    <link rel="stylesheet" href="../fontawesome/css/all.css">
+    <link rel="shortcut icon" href="../images/ladybird.png" type="image/x-icon">
+    <script src="../js/script.js" defer></script>
+    <title>News Title | News Today</title>
+</head>
+<body>
+    <header class="page-header">
+        <div class="top-nav-container">
+            <div class="container">
+                <nav>
+                    <div class="media-icons small-screen-no-display">
+                        <ul>
+                            <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" class="youtube"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="#" class="instagram"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" class="tiktok"><i class="fab fa-tiktok"></i></a></li>
+                            <li><a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i></a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="" class="logo"><img src="../images/ladybird-3.png" alt=""></a>
+                    </div>
+                    <div class="user-chart">
+                        <ul>
+                            <li class="small-screen-no-display">
+                                <p class="weather">
+                                    <span><i class="fa fa-calendar-alt"></i></span> Wednesday, June 13, 2023 
+                                </p>
+                            </li>
+                            <li>
+                                <p class="weather">
+                                    <span><i class="fa fa-cloud"></i></span> Accra 35 
+                                    <sup><sup>&deg;C</sup>
+                                </p>
+                            </li>
+                            <li><a href="#"><i class="fa fa-user"></i></a></li>
+                            <li class="small-screen-no-display"><a href="#"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li class="small-screen-no-display"><a href="#"><i class="fa fa-question"></i></a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="bottom-nav-container" id="mainNav">
+            <div class="container">
+                <nav>     
+                    <button class="small-screen-no-display" id="desktopMoreMenuTrigger"><i class="fa fa-stream"></i></button>
+                    <ul class="site-nav">
+                        <li>
+                            <a href="#" class="site-nav-link site-nav-link-active">
+                                <span class="desktop-no-display">
+                                    <i class="fa fa-home"></i>
+                                </span>
+                                Home
+                            </a>
+                        </li>
+                        <li class="has-desktop-dropdown">
+                            <a href="#" class="site-nav-link">
+                                <span class="desktop-no-display">
+                                    <i class="fa fa-photo-film"></i>
+                                </span>
+                                Entertainments
+                            </a>
+                            <div class="desktop-dropdown-menu">
+                                <div class="desktop-dropdown-content-wrapper">
+                                    <div>
+                                        <ul class="desktop-dropdown-list">
+                                            <li>
+                                                <a href="#" 
+                                                class="desktop-dropdown-list-link active-desktop-dropdown-list-link"
+                                                onclick="openDesktopDropdownListConent('music')"
+                                                >
+                                                    <i class="fa fa-music"></i> <span>Muic</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a 
+                                                class="desktop-dropdown-list-link" href="#" 
+                                                onclick="openDesktopDropdownListConent('movies')"
+                                                >
+                                                    <i class="fa fa-video"></i> <span>Movies</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a 
+                                                class="desktop-dropdown-list-link" href="#" 
+                                                onclick="openDesktopDropdownListConent('novels')"
+                                                >
+                                                    <i class="fa fa-smile-wink"></i> <span>Comedy & Gags</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a 
+                                                class="desktop-dropdown-list-link" href="#"
+                                                onclick="openDesktopDropdownListConent('eventsCelebrations')"
+                                                >
+                                                    <i class="fa fa-glass-cheers"></i> <span>Events & Celebrations</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <ul class="desktop-dropdown-multi-list-content">
+                                            <li class="active-desktop-dropdown-content entertainment" id="music">
+                                                <ul class="desktop-dropdown-list-content">
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="entertainment" id="movies">
+                                                <ul class="desktop-dropdown-list-content">
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?tt</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="entertainment" id="novels">
+                                                <ul class="desktop-dropdown-list-content">
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                            <small class="news-date mt-1"><span><i class="fa fa-clock"></i></span> June 8, 2023</small>
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animiRICHARD?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="entertainment" id="eventsCelebrations">
+                                                <ul class="desktop-dropdown-list-content">
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="has-desktop-dropdown">
+                            <a href="#" class="site-nav-link">
+                                <span class="desktop-no-display">
+                                    <i class="fa fa-gavel"></i>
+                                </span>
+                                Politics
+                            </a>
+                            <div class="desktop-dropdown-menu">
+                                <ul class="desktop-dropdown-multi-list-content">
+                                    <li class="active-desktop-dropdown-content">
+                                        <ul class="desktop-dropdown-list-content">
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="has-desktop-dropdown">
+                            <a href="#" class="site-nav-link">
+                                <span class="desktop-no-display">
+                                    <i class="fa fa-volleyball"></i>
+                                </span>
+                                Sports
+                            </a>
+                            <div class="desktop-dropdown-menu">
+                                <div class="desktop-dropdown-content-wrapper">
+                                    <div>
+                                        <ul class="desktop-dropdown-list">
+                                            <li>
+                                                <a href="#" 
+                                                class="desktop-dropdown-list-link active-desktop-dropdown-list-link"
+                                                onclick="openDesktopDropdownListContentSports('football')"
+                                                >
+                                                    <i class="fa fa-football-ball"></i> <span>Football</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a 
+                                                class="desktop-dropdown-list-link" href="#" 
+                                                onclick="openDesktopDropdownListContentSports('volley')"
+                                                >
+                                                    <i class="fa fa-volleyball"></i> <span>Volley</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a 
+                                                class="desktop-dropdown-list-link" href="#" 
+                                                onclick="openDesktopDropdownListContentSports('athletics')"
+                                                >
+                                                    <i class="fa fa-running"></i> <span>Athletcs</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a 
+                                                class="desktop-dropdown-list-link" href="#"
+                                                onclick="openDesktopDropdownListContentSports('racing')"
+                                                >
+                                                    <i class="fa fa-car"></i> <span>Racing</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a 
+                                                class="desktop-dropdown-list-link" href="#"
+                                                onclick="openDesktopDropdownListContentSports('others')"
+                                                >
+                                                    <i class="fa fa-swimmer"></i> <span>Others</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <ul class="desktop-dropdown-multi-list-content">
+                                            <li class="active-desktop-dropdown-content sports" id="football">
+                                                <ul class="desktop-dropdown-list-content">
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi? Football</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="sports" id="volley">
+                                                <ul class="desktop-dropdown-list-content">
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?Volley</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="sports" id="athletics">
+                                                <ul class="desktop-dropdown-list-content">
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animiRICHARD? Athletcs</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="sports" id="racing">
+                                                <ul class="desktop-dropdown-list-content">
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi? Racing</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="sports" id="others">
+                                                <ul class="desktop-dropdown-list-content">
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?Othesrs</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="has-desktop-dropdown small-screen-no-display">
+                            <a href="#" class="site-nav-link">Fashion</a>
+                            <div class="desktop-dropdown-menu">
+                                <ul class="desktop-dropdown-multi-list-content">
+                                    <li class="active-desktop-dropdown-content">
+                                        <ul class="desktop-dropdown-list-content">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                    <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                    <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                </a>
+                                            </li>        
+                                            <li>
+                                                <a href="#">
+                                                    <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                    <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                    <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="has-desktop-dropdown small-screen-no-display">
+                            <a href="#" class="site-nav-link">Tech</a>
+                            <div class="desktop-dropdown-menu">
+                                <ul class="desktop-dropdown-multi-list-content">
+                                    <li class="active-desktop-dropdown-content">
+                                        <ul class="desktop-dropdown-list-content">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                    <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                    <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                </a>
+                                            </li>        
+                                            <li>
+                                                <a href="#">
+                                                    <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                    <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                    <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="has-desktop-dropdown small-screen-no-display">
+                            <a href="#" class="site-nav-link">Business</a>
+                            <div class="desktop-dropdown-menu">
+                                <ul class="desktop-dropdown-multi-list-content">
+                                    <li class="active-desktop-dropdown-content">
+                                        <ul class="desktop-dropdown-list-content">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                    <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                    <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                </a>
+                                            </li>        
+                                            <li>
+                                                <a href="#">
+                                                    <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                    <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                    <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="has-desktop-dropdown small-screen-no-display">
+                            <a href="#" class="site-nav-link">Kids' Corner</a>
+                            <div class="desktop-dropdown-menu">
+                                <ul class="desktop-dropdown-multi-list-content">
+                                    <li class="active-desktop-dropdown-content">
+                                        <ul class="desktop-dropdown-list-content">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                    <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                    <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                </a>
+                                            </li>        
+                                            <li>
+                                                <a href="#">
+                                                    <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                    <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                    <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="has-desktop-dropdown">
+                            <a href="#" class="site-nav-link">
+                                <span class="desktop-no-display">
+                                    <i class="fa fa-shopping-bag"></i>
+                                </span>
+                                Shop
+                            </a>
+                            <div class="desktop-dropdown-menu">
+                                <div class="desktop-dropdown-content-wrapper">
+                                    <div>
+                                        <ul class="desktop-dropdown-list">
+                                            <li>
+                                                <a href="#" 
+                                                class="desktop-dropdown-list-link active-desktop-dropdown-list-link"
+                                                onclick="openDesktopDropdownListContentShop('electronics')"
+                                                >
+                                                    <i class="fa fa-mobile-alt"></i> <span>Electronics</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a 
+                                                class="desktop-dropdown-list-link" href="#" 
+                                                onclick="openDesktopDropdownListContentShop('clothings')"
+                                                >
+                                                    <i class="fa fa-shirt"></i> <span>Clothings</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a 
+                                                class="desktop-dropdown-list-link" href="#" 
+                                                onclick="openDesktopDropdownListContentShop('health')"
+                                                >
+                                                    <i class="fa fa-capsules"></i> <span>Health</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a 
+                                                class="desktop-dropdown-list-link" href="#"
+                                                onclick="openDesktopDropdownListContentShop('services')"
+                                                >
+                                                    <i class="fa fa-handshake"></i> <span>Services</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a 
+                                                class="desktop-dropdown-list-link" href="#"
+                                                onclick="openDesktopDropdownListContentShop('services')"
+                                                >
+                                                    <i class="fa fa-briefcase"></i> <span>Jobs</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a 
+                                                class="desktop-dropdown-list-link" href="#"
+                                                onclick="openDesktopDropdownListContentShop('shopOthers')"
+                                                >
+                                                    <i class="fa fa-cart-plus"></i> <span>Others</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <ul class="desktop-dropdown-multi-list-content">
+                                            <li class="active-desktop-dropdown-content shop" id="electronics">
+                                                <ul class="desktop-dropdown-list-content">
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi? Football</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="shop" id="clothings">
+                                                <ul class="desktop-dropdown-list-content">
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?Volley</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="shop" id="health">
+                                                <ul class="desktop-dropdown-list-content">
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animiRICHARD? Athletcs</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="shop" id="services">
+                                                <ul class="desktop-dropdown-list-content">
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi? Racing</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="shop" id="jobs">
+                                                <ul class="desktop-dropdown-list-content">
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?Othesrs</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="shop" id="shopOthers">
+                                                <ul class="desktop-dropdown-list-content">
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?Othesrs</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="images/dance-fight.jpg" alt="">
+                                                            <h3 class="story-title mt-half">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi?</h3>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li aria-mobile-menu class="desktop-no-display nav-right">
+                            <button class="mobile-menu-trigger" aria-menu-open="false">
+                                <span ><i class="fa fa-bars"></i></span>
+                                More
+                            </button>
+                            <div class="desktop-no-display  mobile-dropdown">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-laptop-code"></i>
+                                            Tech
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-chart-line"></i>
+                                            Business
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-shirt"></i>
+                                            Fashion
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-smile"></i>
+                                            Kid's Corner
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu-media">
+                                        <ul>
+                                            <li>
+                                                <a href="#" class="facebook">
+                                                    <i class="fab fa-facebook-f"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="tiktok"><i class="fab fa-tiktok"></i></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="nav-search small-screen-no-display">  
+                        <form action="" class="desktop-search-form">
+                            <input type="text" placeholder="Search">
+                            <button class="general_btn"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <main class="main">
+        <div class="container mt-2">
+
+            <header class="story-tile-author">
+                <p class="news-tag news-tag_ent">Entertainments</p>
+                <h1 class="story-title story-title_bold  black-faint mt-1">Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit</h1>
+                <div class="author">
+                    <img src="../images/inside.jpg" alt="" class="author-img">
+                    <div class="author-description">
+                        <p class="story-date">Published on July 25, 2023.</p>
+                        <p class="story-date">By <a href="#" class="link">Richard Nartey</a> <a href="#" class="link">News Today Staff</a></p>
+                        <ul class="author-media-platforms">
+                            <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i></a></li>
+                            <li><a href="#" class="tiktok"><i class="fab fa-tiktok"></i></a></li>
+                            <li><a href="#" class="instagram"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#" class="email"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+
+            <div class="main-content-sidebar mt-2">
+                <div class="main-content">
+                    <div class="story-img-big">
+                        <img src="../images/pexels-ekaterina-bolovtsova-4051518.jpg" alt="">
+                    </div>
+                    <div class="news-share-1">
+                        <ul class="news-share-1-list">
+                            <li>
+                                <a href="#" class="facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <span>Facebook</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="twitter">
+                                    <i class="fab fa-twitter"></i>
+                                    <span>Twitter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="linkedin">
+                                    <i class="fab fa-linkedin"></i>
+                                    <span>LinkedIn</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="instagram">
+                                    <i class="fab fa-instagram"></i>
+                                    <span>Instagram</span>
+                                </a>
+                            </li>
+                            <li><a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i></a></li>
+                            <li><a href="#" class="tiktok"><i class="fab fa-tiktok"></i></a></li>
+                            <li><a href="#" class="pinterest"><i class="fab fa-pinterest-p"></i></a></li>
+                            <li><a href="#" class="reddit"><i class="fab fa-reddit"></i></a></li>
+                            <li><a href="#" class="email"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                   <div class="story-body mt-2">
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque quisquam, asperiores odit ut quae, soluta rem, quis perspiciatis eaque voluptate dolorum omnis. Deserunt et laudantium saepe fugiat aperiam molestiae! Aliquam.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam temporibus mollitia porro ducimus maxime eos, est pariatur culpa laboriosam, nostrum nemo molestias enim totam dolorum quae veritatis delectus voluptates eum qui. Blanditiis vitae placeat reiciendis earum veniam! Natus earum ipsum accusantium unde maiores quia dicta! Ex autem commodi cumque corrupti ut neque perferendis voluptate nobis dolorem quae architecto iusto, quo excepturi necessitatibus nam blanditiis adipisci amet quos, modi quaerat culpa tempore magnam aliquid velit. Animi accusantium beatae enim magni debitis.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam temporibus mollitia porro ducimus maxime eos, est pariatur culpa laboriosam, nostrum nemo molestias enim totam dolorum quae veritatis delectus voluptates eum qui. Blanditiis vitae placeat reiciendis earum veniam! Natus earum ipsum accusantium unde maiores quia dicta! Ex autem commodi cumque corrupti ut neque perferendis voluptate nobis dolorem quae architecto iusto, quo excepturi necessitatibus nam blanditiis adipisci amet quos, modi quaerat culpa tempore magnam aliquid velit. Animi accusantium beatae enim magni debitis.
+                    </p>
+                   </div>
+
+                   <div class="mt-2">
+                    <h2 class="cat-title cat-title_tech"><span><i class="fa fa-anchor"></i></span>Related Stories</h2>
+                    <ul class="related-stories mt-2">
+                        <li>
+                            <a href="#" class="has-img">
+                                <img src="../images/dance-fight.jpg" alt="">
+                                <h3 class="story-title black-faint mt-half ent-link">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum!</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../images/dance-fight.jpg" alt="">
+                                <h3 class="story-title black-faint mt-half ent-link">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum!</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../images/dance-fight.jpg" alt="" class="altered-img">
+                                <h3 class="story-title black-faint mt-half ent-link">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum!</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../images/dance-fight.jpg" alt="">
+                                <h3 class="story-title black-faint mt-half ent-link">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum!</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../images/dance-fight.jpg" alt="">
+                                <h3 class="story-title black-faint mt-half ent-link">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum!</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../images/dance-fight.jpg" alt="">
+                                <h3 class="story-title black-faint mt-half ent-link">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum!</h3>
+                            </a>
+                        </li>
+                    </ul>
+                   </div>
+                </div>
+                <aside class="sidebar">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo neque assumenda corrupti, at dicta totam voluptatum voluptates repellat? Reprehenderit consequatur soluta doloribus voluptatum dignissimos nobis cupiditate ea! Provident atque eum assumenda cum sequi quibusdam autem natus libero totam quo repudiandae earum voluptates nihil quis sed eligendi perferendis, hic ut qui tempore aspernatur accusamus unde iusto? Repudiandae explicabo cumque tempora laborum blanditiis nisi beatae fuga nulla totam fugit rem minima debitis voluptatibus saepe cum quidem deleniti veniam modi, amet velit. Rerum iusto iste sequi harum reprehenderit modi quasi non rem optio veniam, possimus ipsum at necessitatibus delectus? Iure atque reprehenderit officiis cumque est repellat voluptatem numquam quisquam placeat et ea eum, voluptatibus, aliquam magni architecto similique hic! Dolores quia accusamus ad maxime tempora sunt quam fuga at rem autem tempore pariatur, nobis facere magni cum assumenda deserunt eveniet asperiores ipsa, ratione enim. Reiciendis ducimus quia tenetur ipsa itaque cupiditate optio, repellat, enim quisquam non tempore, rerum sint animi facilis rem ratione. Ipsam minus consequuntur saepe ex amet tenetur alias animi, provident voluptatem mollitia molestiae. Atque quod tempore reiciendis dolore doloribus, excepturi recusandae labore explicabo nobis corrupti libero quos inventore, aut alias voluptatum esse mollitia suscipit voluptatem? Possimus quod quae et corporis ex earum atque temporibus delectus soluta dolores voluptatibus a ullam eaque voluptates perferendis inventore, quibusdam nisi, ipsam dicta totam quis eum! Optio quae incidunt voluptatum enim dolores voluptate illo, dolor numquam aliquid quasi quos architecto id ipsum minima mollitia accusantium tenetur, deleniti temporibus delectus cupiditate alias facilis culpa soluta? Culpa, reprehenderit, amet fuga qui libero sit praesentium architecto sequi numquam assumenda perferendis quae? Sapiente voluptates perferendis repellendus blanditiis fugit. Quo tempora sit voluptatum. Corrupti, natus. Excepturi dicta et harum aut quos minus. Laudantium aperiam odit nulla possimus totam incidunt vel ducimus dolorem assumenda voluptatem sit officia corrupti, iste, mollitia aliquam sed ab. Consequuntur enim aut minus distinctio commodi quibusdam quis officia quaerat soluta quasi, similique reprehenderit quod autem. Doloremque sed asperiores, voluptas commodi magnam dolorum ullam laboriosam unde amet, recusandae rem aperiam voluptatem sapiente quos earum repudiandae molestias expedita odio necessitatibus tenetur et reiciendis aut laborum! Hic magni sunt ducimus iusto eaque corrupti commodi blanditiis at voluptatum explicabo accusamus eius ad labore velit a rem dolorum non quas, aliquam culpa atque quam? Nulla rem adipisci ullam. Blanditiis, voluptate, repudiandae illo, vel eligendi fuga pariatur maxime magni magnam quod eveniet exercitationem molestiae corporis ut ab sit beatae cumque dolor nam sint. Corrupti provident dolorem consequatur velit incidunt aperiam cum beatae adipisci, rem quibusdam porro odio, quia ipsam impedit maxime nesciunt perferendis debitis sit vitae, esse voluptate animi commodi mollitia! Amet sint quod repellendus error a nesciunt harum facilis nisi, non atque voluptatem architecto ex. Reprehenderit quidem non sapiente, quas ut itaque voluptatum ipsa. Corporis a maiores, dolores quia architecto dignissimos culpa quas! Modi quidem reprehenderit incidunt alias at, explicabo sint magnam est sequi recusandae? Consequatur, ipsa vitae odio laborum labore porro! Consequuntur suscipit velit deserunt, laudantium placeat laboriosam repudiandae aperiam unde cum maxime repellat sunt debitis impedit aliquam expedita neque beatae saepe, blanditiis quos? Ad magni consequuntur veniam odio quam nobis ratione est. Harum laudantium vero at, sunt modi in iusto! Vitae nemo provident consequatur maxime aut harum quae veniam placeat ut quo sint iure optio rerum ad voluptates facilis ab voluptate quia ipsa, quisquam accusamus necessitatibus, modi facere. In ad, autem qui cum magnam quam facilis ipsa pariatur ducimus accusantium veritatis saepe aperiam laborum nihil tenetur. Veritatis sunt, obcaecati consectetur culpa impedit aliquid aperiam. Qui quisquam, tempore quas dolore eum dolores sapiente quis officiis iusto similique nulla adipisci hic facilis fuga corporis consequuntur ab tenetur unde odio ipsum illo inventore, veritatis perspiciatis minima? Fugiat cupiditate ducimus optio dolore earum sunt illo deleniti fugit?
+                </aside>
+            </div>
+
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+
+    <!-- <script>
+        let mobileMenuTrigger = document.querySelector(".mobile-menu-trigger");
+let mobileDropdown = document.querySelector(".mobile-dropdown");
+
+
+mobileMenuTrigger.addEventListener("click", () => {
+  mobileDropdown.classList.toggle("show");
+  const menuOpen = mobileMenuTrigger.getAttribute("aria-menu-open");
+
+  if (menuOpen === "false") {
+    mobileMenuTrigger.setAttribute("aria-menu-open", true);
+    mobileMenuTrigger.innerHTML = "<span ><i class='fa fa-close'></i></span> Close";
+  } else if (menuOpen === "true") {
+    mobileMenuTrigger.setAttribute("aria-menu-open", false);
+    mobileMenuTrigger.innerHTML = "<span ><i class='fa fa-bars'></i></span> More"
+  }
+})
+    </script> -->
+
+
+
+
+
+
+
+
+
+    <script src="../fontawesome/js/all.js"></script>
+
+    <script>
+        let blurBackgrounds = document.querySelectorAll(".blur-background");
+        blurBackgrounds.forEach(a => {
+            const img = a.querySelector("img")
+
+            function loaded() {
+                // show images
+                a.classList.add("loaded")
+            }
+
+            if(img.complete) {
+                loaded()
+            } else{
+                img.addEventListener("load", loaded)
+            }
+        })
+    </script>
+</body>
